@@ -83,6 +83,7 @@ nav input{
     position: absolute;
     right: 100px;
     
+    
 }
 .btn a{
     text-decoration: none;
@@ -91,6 +92,7 @@ nav input{
 .btn:hover{
     background-color: black;
     color: white;
+    border: 1px solid white; 
 }
 .btn:hover a{
     color: white;
@@ -279,4 +281,53 @@ right: 10px;
     width: 100%;
     height: 100%;
     z-index: 1;
+}
+.child4{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 40px 120px;
+    flex-wrap: wrap;
+    
+}
+.mini1 img{
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+}
+.mini{
+    width: 50%;
+    height: 100%;
+    
+}
+#step{
+    margin: 40px auto;
+    color: white;
+    text-align: center;
+}
+.plan{
+    display: flex;
+    gap: 40px;
+}
+.mini2 h1{
+    text-align: start;
+}
+.mini2 button{
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #FD853A;
+    color: black;
+    cursor: pointer;
+    font-size: 1.1rem;
+    /* border: 1px solid white; */
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+} 
+.mini2 button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white; 
 }
